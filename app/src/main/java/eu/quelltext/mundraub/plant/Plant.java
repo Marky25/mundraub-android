@@ -246,8 +246,8 @@ public class Plant extends ErrorAware implements Comparable<Plant> {
         // from https://stackoverflow.com/a/11737758/1320237
         String uri = "@android:drawable/ic_menu_gallery";
         int imageResource = context.getResources().getIdentifier(uri, null, context.getPackageName());
-        Drawable resource = context.getResources().getDrawable(imageResource);
-        imageView.setImageDrawable(resource);
+        //Drawable resource = context.getResources().getDrawable(imageResource);
+        //imageView.setImageDrawable(resource);
     }
 
     public void setPictureToMap(final ImageView imageView, final MapCache.Callback callback) {

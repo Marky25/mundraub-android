@@ -75,5 +75,5 @@ deploy:
     skip_cleanup: true
     on:
       tags: true
-      repo: niccokunzmann/mundraub-android
+      repo: Marky25/mundraub-android
 

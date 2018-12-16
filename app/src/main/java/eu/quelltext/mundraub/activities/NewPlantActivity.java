@@ -50,7 +50,7 @@ public class NewPlantActivity extends MundraubBaseActivity {
     private TextView textPosition;
     private EditText textDescription;
     private ImageView plantImage;
-    private Plant plant;
+    public Plant plant;
     private EditText numberOfPlants;
     private TextView textTip;
     private Button buttonGPS;

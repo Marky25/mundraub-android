@@ -47,7 +47,7 @@ if [ -z "GITHUB_TOKEN" ]; then
   echo "Skipping the deployment of the token because GITHUB_TOKEN is not set."
   exit 0
 else
-  git push "https://$GITHUB_TOKEN@github.com/niccokunzmann/mundraub-android.git" "$version" 1> push_output 2> push_output
+  git push "https://$GITHUB_TOKEN@github.com/Marky25/mundraub-android.git" "$version" 1> push_output 2> push_output
   sed -e "s/$GITHUB_TOKEN/GITHUB_TOKEN/g" push_output
 fi
 
